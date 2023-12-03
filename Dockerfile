@@ -10,6 +10,3 @@ RUN apt-get update && \
 RUN echo 'root:Cricket1' | /usr/sbin/chpasswd
 
 EXPOSE 22
-
-# 啟動 Shellinabox
-CMD ["shellinabox"]
