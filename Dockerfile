@@ -1,4 +1,4 @@
-FROM ubuntu 22.04
+FROM ubuntu:22.04
 
 #  安裝Shellinabox
 RUN apt-get update
