@@ -4,7 +4,7 @@ FROM ubuntu:22.04
 RUN apt-get update
 RUN apt-get install -y shellinabox
 RUN apt-get clean
-RUN rm -rf /tmp/* /var/tmp/*
+RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 # 設置 root, 用戶密碼
 RUN echo 'root:Cricket1' | chpasswd
 
