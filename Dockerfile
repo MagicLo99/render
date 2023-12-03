@@ -6,7 +6,4 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
     
-# 設置 root, 用戶密碼
-RUN echo 'root:Cricket1' | /usr/sbin/chpasswd
 
-EXPOSE 22
