@@ -12,4 +12,4 @@ RUN echo 'root:Cricket1' | /usr/sbin/chpasswd
 EXPOSE 22
 
 # 啟動 Shellinabox
-CMD ["shellinabox", "-t", "-s", "/:LOGIN"]
+CMD ["shellinabox"]
