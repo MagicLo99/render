@@ -6,4 +6,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
     
 EXPOSE 22
-CMD ["shellinabox", "-t", "-s", "/:LOGIN"]
+#CMD ["shellinabox", "-t", "-s", "/:LOGIN"]
