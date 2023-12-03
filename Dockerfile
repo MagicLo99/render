@@ -13,3 +13,5 @@ EXPOSE 22
 
 # 啟動 Shellinabox
 CMD ["/usr/bin/shellinabox", "-t", "-s", "/:LOGIN"]
+
+
